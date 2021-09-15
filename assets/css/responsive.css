@@ -1,0 +1,144 @@
+@media only screen and (min-width:1200px){
+    .main-banner-textarea{
+        top: 52%;
+    }
+    .main-banner-imgs-area{
+        top: 54%;
+    }
+}
+@media only screen and (min-width:992px){
+    .testimonial-img{
+        border-right: 2px solid #eee;
+      }
+      .testimonial-quote-icon{
+        position: absolute;
+        right: -26px;
+        top: 42%;
+        text-align: center;
+        height: 50px;
+        width: 50px;
+        line-height: 46px;
+        background: #fff;
+        border: 2px solid #eee;
+        border-radius: 50%;
+      }
+}
+@media only screen and (max-width:991px){
+    .testimonial-img img{
+        display: block;
+        margin: 0 auto;
+    }
+    .testimonial-img{
+        border-bottom: 2px solid #eee;
+        margin-bottom: 50px;
+      }
+      .testimonial-quote-icon{
+        margin: 0 auto;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: -25px;
+        text-align: center;
+        height: 50px;
+        width: 50px;
+        line-height: 46px;
+        background: #fff;
+        border: 2px solid #eee;
+        border-radius: 50%;
+      }
+}
+
+@media only screen and (max-width:767px){
+    .showcase-list{
+        display: block;
+    }
+    .showcase-list li{
+        width: 100%!important;
+    }
+    .showcase-list li:last-child{
+        width: 100%!important;
+        height: 20vh;
+    }
+    .showcase-show-more{
+        left: 50%;
+    }
+    .side-menu-btn2{
+        display: block!important;
+    }
+    .side-menu-btn{
+        display: none;
+    }
+    .header-pagination{
+        padding-top: 100px;
+    }
+    #my-navbar{
+        background-color: #fff!important;
+    }
+    .nav-link{
+        color: #000!important;
+        display: inline-block;
+    }
+    .side-menu-btn2 .nav-link{
+        color: #fff!important;
+    }
+    .main-banner-imgs-area{
+        display: none;
+    }
+    .main-banner-textarea{
+        left: 50%;
+        padding-left: 15px;
+    }
+    #main-banner-carousel .owl-nav .owl-prev{
+        font-size: 30px;
+        line-height: 30px;
+        height: 30px;
+        right: 85px;        
+    }
+    #main-banner-carousel .owl-nav .owl-next{
+        font-size: 30px;
+        line-height: 30px;
+        height: 30px;
+    }
+}
+
+@media only screen and (min-width:576px){
+    .about-us-textarea{
+        padding: 50px 100px;
+    }
+    .video-textarea{
+        padding: 50px 100px 20px 100px;
+    }
+    .video-stat-box{
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width:575px){
+    .modal .modal-dialog{
+        width: 100%;
+    }
+    .owl-nav{
+        display: none;
+    }
+    .heading-background{
+        font-size: 45px;
+    }
+    .main-banner-textarea{
+        top: 65%;
+    }
+    .main-banner-textarea h1{
+        font-size: 7vw;
+    }
+    .main-banner-textarea h5{
+        font-size: 4vw;
+    }
+    .main-banner-textarea .btn{
+        display: none;
+    }
+    .top-header{
+        display: none;
+    }
+    .navbar{
+        top: 0;
+    }
+}
